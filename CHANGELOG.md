@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 0.0.2 - 2016-12-10
+### Added
+- Added missing PropTypes
+
 ## 0.0.1 - 2016-12-10
 ### Added
 - Initial release. 👾👾

@@ -111,9 +111,37 @@ const Toggle = (props) => {
 
 Toggle.propTypes = {
   /**
-   * The css class name of the root element.
+   * ClassName of the root element
    */
   className: PropTypes.string,
+  /**
+   * Color of the toggle button
+   */
+  color: PropTypes.string,
+  /**
+   * Will disable the toggle if true.
+   */
+  disabled: PropTypes.string,
+  /**
+   * Label for toggle.
+   */
+  label: PropTypes.string,
+  /**
+   * Overrides the inline-styles of the Toggle element label.
+   */
+  labelStyle: PropTypes.string,
+  /**
+   * Callback function that is fired when the toggle switch is toggled.
+   */
+  onChange: PropTypes.string,
+  /**
+   * Override the inline-styles of the root element.
+   */
+  style: PropTypes.string,
+  /**
+   * Value for when using controlled toggle.
+   */
+  value: PropTypes.string,
 };
 
 export default Toggle;
