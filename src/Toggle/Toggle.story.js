@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import Toggle from './Toggle';
 
-const onChange = (value) => console.log('🍇', value); // eslint-disable-line no-console
+const handleChange = (value) => console.log('🍇', value);  // eslint-disable-line no-console
 
 const style = {
   container: {
@@ -16,14 +16,14 @@ storiesOf('Toggle', module)
     <Toggle
       value={true}
       label={'Show profile settings'}
-      onChange={onChange}
+      onChange={handleChange}
     />
   ))
   .add('off', () => (
     <Toggle
       value={false}
       label={'Show profile settings'}
-      onChange={onChange}
+      onChange={handleChange}
     />
   ))
   .add('blue', () => (
@@ -31,7 +31,7 @@ storiesOf('Toggle', module)
       color={'#3498db'}
       value={true}
       label={'Show profile settings'}
-      onChange={onChange}
+      onChange={handleChange}
     />
   ))
   .add('disabled', () => (
@@ -40,14 +40,14 @@ storiesOf('Toggle', module)
       value={true}
       disabled={true}
       label={'Show profile settings'}
-      onChange={onChange}
+      onChange={handleChange}
     />
   ))
   .add('no label', () => (
     <Toggle
       color={'#3498db'}
       value={true}
-      onChange={onChange}
+      onChange={handleChange}
     />
   ))
   .add('in small container', () => (
@@ -55,7 +55,7 @@ storiesOf('Toggle', module)
       <Toggle
         color={'#3498db'}
         value={true}
-        onChange={onChange}
+        onChange={handleChange}
       />
     </div>
 
