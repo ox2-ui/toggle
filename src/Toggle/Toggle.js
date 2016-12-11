@@ -98,7 +98,7 @@ const Toggle = (props) => {
           type="checkbox"
           color={color || '#2ecc71'}
           disabled={disabled}
-          checked={value ? true : false } // eslint-disable-line no-unneeded-ternary
+          checked={value}
           onChange={(event) => onChange(event.target.checked)} // eslint-disable-line react/jsx-handler-names
         />
         <Track>
