@@ -121,7 +121,7 @@ Toggle.propTypes = {
   /**
    * Will disable the toggle if true.
    */
-  disabled: PropTypes.string,
+  disabled: PropTypes.bool,
   /**
    * Label for toggle.
    */
@@ -129,19 +129,19 @@ Toggle.propTypes = {
   /**
    * Overrides the inline-styles of the Toggle element label.
    */
-  labelStyle: PropTypes.string,
+  labelStyle: PropTypes.object,
   /**
    * Callback function that is fired when the toggle switch is toggled.
    */
-  onChange: PropTypes.string,
+  onChange: PropTypes.func,
   /**
    * Override the inline-styles of the root element.
    */
-  style: PropTypes.string,
+  style: PropTypes.object,
   /**
    * Value for when using controlled toggle.
    */
-  value: PropTypes.string,
+  value: PropTypes.bool,
 };
 
 export default Toggle;
