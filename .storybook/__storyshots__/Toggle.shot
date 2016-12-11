@@ -1,0 +1,163 @@
+exports[`blue`] = `
+<label
+  className="dEWRtq"
+  style={undefined}>
+  <div
+    className="cFNsmu"
+    disabled={undefined}
+    style={undefined}>
+    Show profile settings
+  </div>
+  <div
+    className="ddmShN">
+    <input
+      checked={true}
+      className="KrWol"
+      color="#3498db"
+      disabled={undefined}
+      onChange={[Function]}
+      type="checkbox" />
+    <span
+      className="iZgbnP">
+      <i
+        className="bqdnEt" />
+    </span>
+  </div>
+</label>
+`;
+
+exports[`disabled`] = `
+<label
+  className="dEWRtq"
+  style={undefined}>
+  <div
+    className="ckRhtA"
+    disabled={true}
+    style={undefined}>
+    Show profile settings
+  </div>
+  <div
+    className="ddmShN">
+    <input
+      checked={true}
+      className="KrWol"
+      color="#3498db"
+      disabled={true}
+      onChange={[Function]}
+      type="checkbox" />
+    <span
+      className="iZgbnP">
+      <i
+        className="bqdnEt" />
+    </span>
+  </div>
+</label>
+`;
+
+exports[`in small container`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "GHOSTWHITE",
+      "width": "100px",
+    }
+  }>
+  <label
+    className="dEWRtq"
+    style={undefined}>
+    <div
+      className="ddmShN">
+      <input
+        checked={true}
+        className="KrWol"
+        color="#3498db"
+        disabled={undefined}
+        onChange={[Function]}
+        type="checkbox" />
+      <span
+        className="iZgbnP">
+        <i
+          className="bqdnEt" />
+      </span>
+    </div>
+  </label>
+</div>
+`;
+
+exports[`no label`] = `
+<label
+  className="dEWRtq"
+  style={undefined}>
+  <div
+    className="ddmShN">
+    <input
+      checked={true}
+      className="KrWol"
+      color="#3498db"
+      disabled={undefined}
+      onChange={[Function]}
+      type="checkbox" />
+    <span
+      className="iZgbnP">
+      <i
+        className="bqdnEt" />
+    </span>
+  </div>
+</label>
+`;
+
+exports[`off`] = `
+<label
+  className="dEWRtq"
+  style={undefined}>
+  <div
+    className="cFNsmu"
+    disabled={undefined}
+    style={undefined}>
+    Show profile settings
+  </div>
+  <div
+    className="ddmShN">
+    <input
+      checked={false}
+      className="lmkVLy"
+      color="#2ecc71"
+      disabled={undefined}
+      onChange={[Function]}
+      type="checkbox" />
+    <span
+      className="iZgbnP">
+      <i
+        className="bqdnEt" />
+    </span>
+  </div>
+</label>
+`;
+
+exports[`on`] = `
+<label
+  className="dEWRtq"
+  style={undefined}>
+  <div
+    className="cFNsmu"
+    disabled={undefined}
+    style={undefined}>
+    Show profile settings
+  </div>
+  <div
+    className="ddmShN">
+    <input
+      checked={true}
+      className="lmkVLy"
+      color="#2ecc71"
+      disabled={undefined}
+      onChange={[Function]}
+      type="checkbox" />
+    <span
+      className="iZgbnP">
+      <i
+        className="bqdnEt" />
+    </span>
+  </div>
+</label>
+`;
