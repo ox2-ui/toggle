@@ -3,8 +3,9 @@ const glob = require('glob');
 
 module.exports = {
   title: '@ox2/toggle',
-  template: './docs/template.html',
+  template: './docs/src/template.html',
   serverPort: 12333,
+  styleguideDir: './docs',
   updateWebpackConfig: webpackConfig => {
     webpackConfig.module.loaders.push(
       {
@@ -22,19 +23,19 @@ module.exports = {
       sections: [
         {
           name: 'About',
-          content: 'docs/introduction.md',
+          content: './docs/src/introduction.md',
         },
         {
           name: 'Installation',
-          content: 'docs/installation.md',
+          content: './docs/src/installation.md',
         },
         {
           name: 'Usage',
-          content: 'docs/usage.md',
+          content: './docs/src/usage.md',
         },
         {
           name: 'Redux Form',
-          content: 'docs/redux-form.md',
+          content: './docs/src/redux-form.md',
         },
       ],
     },
