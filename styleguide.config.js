@@ -6,6 +6,7 @@ module.exports = {
   template: './docs/src/template.html',
   serverPort: 12333,
   styleguideDir: './docs',
+  showCode: true,
   updateWebpackConfig: webpackConfig => {
     webpackConfig.module.loaders.push(
       {
@@ -39,10 +40,6 @@ module.exports = {
         },
       ],
     },
-    // {
-    //   name: 'Get Started',
-    //   content: './README.md',
-    // },
     {
       name: 'Components',
       components() {
