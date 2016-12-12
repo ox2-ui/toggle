@@ -3,8 +3,8 @@
 
 On:
 
-    const handleChange = (value) => setState({ mySetting: value });
     initialState = { mySetting: true };
+    const handleChange = (value) => setState({ mySetting: value });
 
 
     <Toggle
@@ -15,8 +15,8 @@ On:
 
 Off:
 
-    const handleChange = (value) => setState({ mySetting: value });
     initialState = { mySetting: false };
+    const handleChange = (value) => setState({ mySetting: value });
 
 
     <Toggle
@@ -27,8 +27,8 @@ Off:
 
 Disabled:
 
-    const handleChange = (value) => setState({ mySetting: value });
     initialState = { mySetting: true };
+    const handleChange = (value) => setState({ mySetting: value });
 
 
     <Toggle
@@ -40,8 +40,8 @@ Disabled:
 
 Custom color:
 
-    const handleChange = (value) => setState({ mySetting: value });
     initialState = { mySetting: true };
+    const handleChange = (value) => setState({ mySetting: value });
 
 
     <Toggle

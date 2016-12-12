@@ -6,4 +6,4 @@ React `Toggle` component visually similar to native iOS toggle.
 ## Features
 
 * **Mobile Optimized** Excellent mobile animation performance.
-* **Checkbox** Its a styled browser `form element` checkbox.
+* **Real Checkbox** Its a styled browser checkbox `form element`.
