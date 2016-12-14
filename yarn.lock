@@ -119,6 +119,13 @@
     react-test-renderer "^15.3.1"
     require-hijack "^1.2.1"
 
+"@ox2/iframe@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ox2/iframe/-/iframe-0.0.1.tgz#e9bd4b7534b057810500f95bad732fc5e8783324"
+  dependencies:
+    react-addons-shallow-compare "^15.4.1"
+    react-virtualized "^8.7.1"
+
 Base64@~0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/Base64/-/Base64-0.2.1.tgz#ba3a4230708e186705065e66babdd4c35cf60028"
@@ -2000,6 +2007,10 @@ dom-converter@~0.1:
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
   dependencies:
     utila "~0.3"
+
+dom-helpers@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-2.4.0.tgz#9bb4b245f637367b1fa670274272aa28fe06c367"
 
 dom-serializer@0, dom-serializer@~0.1.0:
   version "0.1.0"
@@ -5001,6 +5012,10 @@ react-addons-perf@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-addons-perf/-/react-addons-perf-15.4.1.tgz#c6dd5a7011f43cd3222f47b7cb1aebe9d4174cb0"
 
+react-addons-shallow-compare@^15.4.1:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.4.1.tgz#b68103dd4d13144cb221065f6021de1822bd435a"
+
 react-addons-test-utils@^15.4.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-addons-test-utils/-/react-addons-test-utils-15.4.1.tgz#1e4caab151bf27cce26df5f9cb714f4fd8359ae1"
@@ -5142,6 +5157,14 @@ react-styleguidist@^4.4.1:
 react-test-renderer@^15.3.1:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-15.4.1.tgz#e38cd7057868d4a655d3764689735b4b97260706"
+
+react-virtualized@^8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/react-virtualized/-/react-virtualized-8.7.1.tgz#abcbfeeb55322030dc647ece0123a3eb8ab8a493"
+  dependencies:
+    babel-runtime "^6.11.6"
+    classnames "^2.2.3"
+    dom-helpers "^2.4.0"
 
 react@^15.4.1:
   version "15.4.1"

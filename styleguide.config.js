@@ -4,7 +4,7 @@ const glob = require('glob');
 module.exports = {
   title: '@ox2/toggle',
   template: './docs/src/template.html',
-  serverPort: 12333,
+  serverPort: 55004,
   styleguideDir: './docs',
   updateWebpackConfig: webpackConfig => {
     webpackConfig.module.loaders.push(
