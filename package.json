@@ -9,8 +9,8 @@
   "license": "MIT",
   "scripts": {
     "docs": "styleguidist server",
-    "docs:build": "styleguidist build",
-    "docs:copy-files": "babel-node ./scripts/copy-docs.js",
+    "docs:build": "styleguidist build && npm run docs:copy-to-public",
+    "docs:copy-to-public": "bash ./scripts/copy_docs.sh",
     "storybook": "start-storybook -p 55003 -s ./public",
     "build-storybook": "build-storybook -s ./public",
     "test-storybook": "storyshots",
