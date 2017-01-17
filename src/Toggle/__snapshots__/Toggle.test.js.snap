@@ -1,0 +1,155 @@
+exports[`test reders custom color 1`] = `
+<Toggle
+  color="#3498db"
+  value={true}>
+  <styled.label>
+    <label
+      className="dEWRtq">
+      <styled.div>
+        <div
+          className="ddmShN">
+          <styled.input
+            checked={true}
+            color="#3498db"
+            onChange={[Function]}
+            type="checkbox">
+            <input
+              checked={true}
+              className="KrWol"
+              color="#3498db"
+              onChange={[Function]}
+              type="checkbox" />
+          </styled.input>
+          <styled.span>
+            <span
+              className="iZgbnP">
+              <styled.i>
+                <i
+                  className="bqdnEt" />
+              </styled.i>
+            </span>
+          </styled.span>
+        </div>
+      </styled.div>
+    </label>
+  </styled.label>
+</Toggle>
+`;
+
+exports[`test reders disabled 1`] = `
+<Toggle
+  value={false}>
+  <styled.label>
+    <label
+      className="dEWRtq">
+      <styled.div>
+        <div
+          className="ddmShN">
+          <styled.input
+            checked={false}
+            color="#2ecc71"
+            onChange={[Function]}
+            type="checkbox">
+            <input
+              checked={false}
+              className="lmkVLy"
+              color="#2ecc71"
+              onChange={[Function]}
+              type="checkbox" />
+          </styled.input>
+          <styled.span>
+            <span
+              className="iZgbnP">
+              <styled.i>
+                <i
+                  className="bqdnEt" />
+              </styled.i>
+            </span>
+          </styled.span>
+        </div>
+      </styled.div>
+    </label>
+  </styled.label>
+</Toggle>
+`;
+
+exports[`test reders with label 1`] = `
+<Toggle
+  label="My label"
+  value={true}>
+  <styled.label>
+    <label
+      className="dEWRtq">
+      <styled.div>
+        <div
+          className="cFNsmu">
+          My label
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="ddmShN">
+          <styled.input
+            checked={true}
+            color="#2ecc71"
+            onChange={[Function]}
+            type="checkbox">
+            <input
+              checked={true}
+              className="lmkVLy"
+              color="#2ecc71"
+              onChange={[Function]}
+              type="checkbox" />
+          </styled.input>
+          <styled.span>
+            <span
+              className="iZgbnP">
+              <styled.i>
+                <i
+                  className="bqdnEt" />
+              </styled.i>
+            </span>
+          </styled.span>
+        </div>
+      </styled.div>
+    </label>
+  </styled.label>
+</Toggle>
+`;
+
+exports[`test renders enabled 1`] = `
+<Toggle
+  value={true}>
+  <styled.label>
+    <label
+      className="dEWRtq">
+      <styled.div>
+        <div
+          className="ddmShN">
+          <styled.input
+            checked={true}
+            color="#2ecc71"
+            onChange={[Function]}
+            type="checkbox">
+            <input
+              checked={true}
+              className="lmkVLy"
+              color="#2ecc71"
+              onChange={[Function]}
+              type="checkbox" />
+          </styled.input>
+          <styled.span>
+            <span
+              className="iZgbnP">
+              <styled.i>
+                <i
+                  className="bqdnEt" />
+              </styled.i>
+            </span>
+          </styled.span>
+        </div>
+      </styled.div>
+    </label>
+  </styled.label>
+</Toggle>
+`;
