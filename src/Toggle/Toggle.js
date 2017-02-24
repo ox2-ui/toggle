@@ -8,13 +8,13 @@ const Label = styled.label`
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  padding: 3px 7px;
+  height: 42px;
 `;
 
 const Text = styled.div`
   font-family: 'Roboto Condensed';
-  font-size: 18px;
-  color: #1b160e;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.87);
   opacity: ${props => props.disabled ? '0.5' : '1'}
 `;
 

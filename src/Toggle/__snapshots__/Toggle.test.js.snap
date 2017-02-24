@@ -4,7 +4,7 @@ exports[`test reders custom color 1`] = `
   value={true}>
   <styled.label>
     <label
-      className="dEWRtq">
+      className="fhQNhR">
       <styled.div>
         <div
           className="ddmShN">
@@ -41,7 +41,7 @@ exports[`test reders disabled 1`] = `
   value={false}>
   <styled.label>
     <label
-      className="dEWRtq">
+      className="fhQNhR">
       <styled.div>
         <div
           className="ddmShN">
@@ -79,10 +79,10 @@ exports[`test reders with label 1`] = `
   value={true}>
   <styled.label>
     <label
-      className="dEWRtq">
+      className="fhQNhR">
       <styled.div>
         <div
-          className="cFNsmu">
+          className="hGyXZB">
           My label
         </div>
       </styled.div>
@@ -122,7 +122,7 @@ exports[`test renders enabled 1`] = `
   value={true}>
   <styled.label>
     <label
-      className="dEWRtq">
+      className="fhQNhR">
       <styled.div>
         <div
           className="ddmShN">
