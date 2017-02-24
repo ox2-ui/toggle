@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 0.0.4 - 2017-02-24
+### Changed
+- [Toggle] change label color and spacing
+
 ## 0.0.3 - 2016-12-11
 ### Changed
 - [Toggle] removed value check
