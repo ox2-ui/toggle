@@ -15,7 +15,8 @@ const Text = styled.div`
   font-family: 'Roboto Condensed';
   font-size: 17px;
   color: rgba(0, 0, 0, 0.87);
-  opacity: ${props => props.disabled ? '0.5' : '1'}
+  opacity: ${props => props.disabled ? '0.5' : '1'};
+  -webkit-font-smoothing: antialiased;
 `;
 
 const Wrapper = styled.div`
