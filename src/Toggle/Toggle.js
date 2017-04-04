@@ -17,6 +17,7 @@ const Text = styled.div`
   color: rgba(0, 0, 0, 0.87);
   opacity: ${props => props.disabled ? '0.5' : '1'};
   -webkit-font-smoothing: antialiased;
+  padding-right: 10px;
 `;
 
 const Wrapper = styled.div`
