@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # @ox2/toggle
 ![NPM version](https://img.shields.io/badge/npm-private-orange.svg?style=flat)
 <!-- ![NPM version](https://img.shields.io/npm/v/@ox2/toggle.svg?style=flat) -->
